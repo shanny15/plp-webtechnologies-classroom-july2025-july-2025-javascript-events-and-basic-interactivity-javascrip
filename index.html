@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive JavaScript Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎉 JavaScript Interaction Project</h1>
+
+  <!-- Part 1: Basic Event Handling -->
+  <section>
+    <h2>Part 1: Event Handling</h2>
+    <button id="alertBtn">Click Me</button>
+    <div id="hoverBox">Hover over me</div>
+  </section>
+
+  <!-- Part 2: Interactive Features -->
+  <section>
+    <h2>Part 2: Interactive Features</h2>
+
+    <!-- Light/Dark Mode Toggle -->
+    <button id="modeToggle">Toggle Light/Dark Mode</button>
+
+    <!-- FAQ Section -->
+    <div class="faq">
+      <h3 class="faq-question">What is this project about?</h3>
+      <p class="faq-answer hidden">It's a hands-on JavaScript project demonstrating interactivity.</p>
+
+      <h3 class="faq-question">What did you learn?</h3>
+      <p class="faq-answer hidden">I learned how to use event listeners and manipulate the DOM using JavaScript.</p>
+    </div>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>Part 3: Custom Form Validation</h2>
+    <form id="myForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" />
+      <div class="error" id="nameError"></div>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" />
+      <div class="error" id="emailError"></div>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" />
+      <div class="error" id="passwordError"></div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
